@@ -3,3 +3,5 @@ De instalat VS Code
 De accesat link-urile de pe Slack
 De instalat ModelSim
 Update de pe Ubuntu pentru test2
+Laborator 2:
+git status
