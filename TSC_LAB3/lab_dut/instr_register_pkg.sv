@@ -5,7 +5,7 @@
 package instr_register_pkg;
   timeunit 1ns/1ns;
 
-  typedef enum logic [3:0] {
+  typedef enum logic [3:0] { // definim tipul de date pe care il vrem
   	ZERO,
     PASSA,
     PASSB,
@@ -24,6 +24,7 @@ package instr_register_pkg;
     opcode_t  opc;
     operand_t op_a;
     operand_t op_b;
+    operand_t res;
   } instruction_t;
 
 endpackage: instr_register_pkg

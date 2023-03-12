@@ -3,21 +3,21 @@
  **********************************************************************/
 
 module top;
-  //directiva de compilator care seteaza rezolutia si timpul de simulare
-  timeunit 1ns/1ns;
+  timeunit 1ns/1ns; //seteaza timpul de simulare 
 
   // user-defined types are defined in instr_register_pkg.sv
   import instr_register_pkg::*;
 
   // clock variables
   logic clk;
-  logic test_clk;
+  logic test_clk; 
+  //logic = 4 stari 0,1,x,z p/pe un bit
 
   // interconnecting signals
-  logic          load_en;
-  logic          reset_n;
-  opcode_t       opcode;
-  operand_t      operand_a, operand_b;
+  logic          load_en; // load_enable
+  logic          reset_n; //reset_negative
+  opcode_t       opcode;   
+  operand_t      operand_a, operand_b, res;
   address_t      write_pointer, read_pointer;
   instruction_t  instruction_word;
 
@@ -28,6 +28,7 @@ module top;
     .reset_n(reset_n),
     .operand_a(operand_a),
     .operand_b(operand_b),
+    .res(res),
     .opcode(opcode),
     .write_pointer(write_pointer),
     .read_pointer(read_pointer),
@@ -41,6 +42,7 @@ module top;
     .reset_n(reset_n),
     .operand_a(operand_a),
     .operand_b(operand_b),
+    .res(res),
     .opcode(opcode),
     .write_pointer(write_pointer),
     .read_pointer(read_pointer),
