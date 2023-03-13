@@ -1,0 +1,112 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/savac/Desktop/TSC_Lab3
+vinstr_register
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 DXx4 work 18 instr_register_pkg 0 22 9LaK[<LIniHk1S341go@22
+!s110 1678700186
+!i10b 1
+!s100 W67=el<]@55WgfZz_DT@T0
+IUindN^iaBA0WWm]CCca:01
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 instr_register_sv_unit
+S1
+Z3 dC:/Users/alexa/Downloads/TSC_Lab3
+w1678695977
+8C:/Users/alexa/Downloads/TSC_Lab3/lab_dut/instr_register.sv
+FC:/Users/alexa/Downloads/TSC_Lab3/lab_dut/instr_register.sv
+L0 9
+Z4 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1678700186.000000
+!s107 C:/Users/alexa/Downloads/TSC_Lab3/lab_dut/instr_register.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alexa/Downloads/TSC_Lab3/lab_dut/instr_register.sv|
+!s101 -O0
+!i113 1
+Z5 o-work work -O0
+Z6 tCvgOpt 0
+Xinstr_register_pkg
+R0
+!s110 1678700185
+!i10b 1
+!s100 fSR9=a_hi=5Ckn95Rjd^Q3
+I9LaK[<LIniHk1S341go@22
+V9LaK[<LIniHk1S341go@22
+S1
+R3
+w1678695929
+8C:/Users/alexa/Downloads/TSC_Lab3/lab_dut/instr_register_pkg.sv
+FC:/Users/alexa/Downloads/TSC_Lab3/lab_dut/instr_register_pkg.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1678700185.000000
+!s107 C:/Users/alexa/Downloads/TSC_Lab3/lab_dut/instr_register_pkg.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alexa/Downloads/TSC_Lab3/lab_dut/instr_register_pkg.sv|
+!s101 -O0
+!i113 1
+R5
+R6
+vinstr_register_test
+R0
+R1
+!s110 1678700190
+!i10b 1
+!s100 :f_39FzUV]?NZO:iW7CH12
+IJlz8[<75Xe:JWUj@hB1Li3
+R2
+!s105 instr_register_test_sv_unit
+S1
+R3
+w1678700123
+8C:/Users/alexa/Downloads/TSC_Lab3/lab01_testbench-interface/instr_register_test.sv
+FC:/Users/alexa/Downloads/TSC_Lab3/lab01_testbench-interface/instr_register_test.sv
+L0 8
+R4
+r1
+!s85 0
+31
+!s108 1678700190.000000
+!s107 C:/Users/alexa/Downloads/TSC_Lab3/lab01_testbench-interface/instr_register_test.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alexa/Downloads/TSC_Lab3/lab01_testbench-interface/instr_register_test.sv|
+!s101 -O0
+!i113 1
+R5
+R6
+vtop
+R0
+R1
+!s110 1678700191
+!i10b 1
+!s100 QC`MXmTZGjjQ]1BjB2l0P2
+ILbo[ObQ9MDi<[nnFK`CK>0
+R2
+!s105 top_sv_unit
+S1
+R3
+w1678695553
+8C:/Users/alexa/Downloads/TSC_Lab3/lab01_testbench-interface/top.sv
+FC:/Users/alexa/Downloads/TSC_Lab3/lab01_testbench-interface/top.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1678700191.000000
+!s107 C:/Users/alexa/Downloads/TSC_Lab3/lab01_testbench-interface/top.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alexa/Downloads/TSC_Lab3/lab01_testbench-interface/top.sv|
+!s101 -O0
+!i113 1
+R5
+R6
